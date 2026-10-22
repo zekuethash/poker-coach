@@ -3,10 +3,10 @@
 Texas Hold'em pokerini Türkçe öğreten mobil web uygulaması (PWA). Derleme veya bağımlılık gerektirmez.
 
 ## Özellikler
-- **Dersler:** Temeller, el sıralaması, aksiyonlar, pozisyon, başlangıç elleri, outs & pot odds, strateji (ilerleme kaydedilir).
-- **Quiz:** El sıralaması, kim kazanır, pot odds, başlangıç eli kararı.
-- **Strateji tablosu:** Pozisyona göre 13×13 açılış aralığı (UTG / MP / CO / BTN).
-- **Simülatör:** Rastgele bir rakibe karşı Monte Carlo eşitlik hesabı; flop/turn/river açtıkça değişimi izle.
+- **Öğren:** Duolingo tarzı yol: 3 bölüm, 13 kısa interaktif ders; XP, günlük seri 🔥, kalpler ❤️, günlük hedef.
+- **Oyna:** 3 bota (Tilki, Kedi, Aslan) karşı 4 kişilik No-Limit Hold'em; side pot, all-in, 💡 Koç ipucu (eşitlik + pot odds).
+- **Pratik:** 4 quiz türü (7+ doğru = +1 kalp), başlangıç eli tablosu (UTG/MP/CO/BTN), eşitlik simülatörü.
+- **Profil:** Seviye, XP, seri, istatistikler.
 
 ## Çalıştırma
 ```sh
@@ -16,7 +16,7 @@ Telefonda tarayıcıdan aç → "Ana ekrana ekle" ile uygulama gibi kur (çevrim
 
 ## Test
 ```sh
-node tests/poker.test.js
+node tests/poker.test.js && node tests/game.test.js
 ```
 
 ## iPhone'a kurulum
