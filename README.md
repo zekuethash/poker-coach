@@ -18,3 +18,8 @@ Telefonda tarayıcıdan aç → "Ana ekrana ekle" ile uygulama gibi kur (çevrim
 ```sh
 node tests/poker.test.js
 ```
+
+## iPhone'a kurulum
+1. Repo'da **Settings → Pages → Source: GitHub Actions** seç.
+2. Değişiklikler `main`'e birleşince (ya da Actions → "Deploy to GitHub Pages" → Run workflow) site `https://<kullanıcı>.github.io/poker-coach/` adresinde yayınlanır.
+3. iPhone'da **Safari** ile adresi aç → Paylaş → **Ana Ekrana Ekle**.
