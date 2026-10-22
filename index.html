@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b3d2e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Poker Koçu">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/style.css">
+<title>Poker Koçu</title>
+</head>
+<body>
+<header class="top"><h1 id="title">Poker Koçu</h1><button id="back" class="back" hidden aria-label="Geri">‹ Geri</button></header>
+<main id="view"></main>
+<nav class="tabs">
+  <button data-tab="learn"><span>📚</span>Dersler</button>
+  <button data-tab="quiz"><span>❓</span>Quiz</button>
+  <button data-tab="chart"><span>📊</span>Strateji</button>
+  <button data-tab="sim"><span>🎲</span>Simülatör</button>
+</nav>
+<script src="js/poker.js"></script>
+<script src="js/lessons.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
